@@ -2,7 +2,13 @@
 =========
 ## 前提说明
 * [github 欢迎star:https://github.com/apanly/open_kf_v1](https://github.com/apanly/open_kf_v1)
-* [多商户演示地址:https://kf.360zhishu.cn/](https://kf.360zhishu.cn/)
+* 演示地址
+    * [PC：http://www.54php.cn/](http://www.54php.cn/)
+    * [手机H5：http://m.54php.cn/](http://m.54php.cn/)
+    * ![小程序](./docs/images/mina.jpg)
+    * ![公众号](./docs/images/qrcode.jpg)
+    * [多商户供应商](https://kf.360zhishu.cn/)
+
 ## 环境准备
 * nginx + mysql + php
 * [nginx的配置](./docs/nginx/kefu.conf)
