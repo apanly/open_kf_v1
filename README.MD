@@ -6,6 +6,7 @@
 * [nginx的配置](./docs/nginx/kefu.conf)
 * [数据库文件：saas_stkf_v1](./docs/saas_stkf_v1.sql)
 * YII2 配置
+    * [如果不会配置YII2 可以参考YII2中文官网](https://www.yiichina.com/doc/guide/2.0)
     * 数据库配置：common/config/main-local.php
     * 访问系统域名配置：common/config/params-local.php
 * [课程使用vendor，切记文件夹名称是 vendor ](https://pan.baidu.com/s/1riMKPdSHLPdZK1-pMfFWvw)
@@ -29,3 +30,4 @@
 ## 参考文档
 * [Workerman](https://www.workerman.net/)
 * [GatewayWorker](http://workerman.net/gatewaydoc/)
+* [YII2中文官网](https://www.yiichina.com/doc/guide/2.0)
