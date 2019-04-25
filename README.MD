@@ -1,5 +1,6 @@
 编程浪子开源云客服
 =========
+## [github 欢迎star:https://github.com/apanly/open_kf_v1](https://github.com/apanly/open_kf_v1)
 ## 环境准备
 * nginx + mysql + php
 * [nginx的配置](./docs/nginx/kefu.conf)
