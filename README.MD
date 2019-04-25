@@ -7,7 +7,6 @@
     * [手机H5：http://m.54php.cn/](http://m.54php.cn/)
     * ![小程序](./docs/images/mina.jpg)
     * ![公众号](./docs/images/qrcode.jpg)
-    * [多商户供应商](https://kf.360zhishu.cn/)
 
 ## 环境准备
 * nginx + mysql + php
