@@ -1,0 +1,69 @@
+<?php
+
+namespace common\models\guest;
+
+use Yii;
+
+/**
+ * This is the model class for table "guest".
+ *
+ * @property int $id
+ * @property string $f_name 发送方昵称
+ * @property string $f_code 发送方code
+ * @property string $f_avatar 发送方头像
+ * @property string $f_clientid ws服务分配的客户端id
+ * @property string $kf_code 服务的客服sn
+ * @property int $online_status 在线状态 1：在线 0：不在线
+ * @property string $updated_time 更新时间
+ * @property string $created_time 创建时间
+ */
+class Guest extends \yii\db\ActiveRecord
+{
+    /**
+     * {@inheritdoc}
+     */
+    public static function tableName()
+    {
+        return 'guest';
+    }
+
+    /**
+     * @return \yii\db\Connection the database connection used by this AR class.
+     */
+    public static function getDb()
+    {
+        return Yii::$app->get('db_kf');
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function rules()
+    {
+        return [
+            [['online_status'], 'integer'],
+            [['updated_time', 'created_time'], 'safe'],
+            [['f_name', 'f_code', 'f_clientid', 'kf_code'], 'string', 'max' => 32],
+            [['f_avatar'], 'string', 'max' => 250],
+            [['f_code'], 'unique'],
+        ];
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function attributeLabels()
+    {
+        return [
+            'id' => 'ID',
+            'f_name' => 'F Name',
+            'f_code' => 'F Code',
+            'f_avatar' => 'F Avatar',
+            'f_clientid' => 'F Clientid',
+            'kf_code' => 'Kf Code',
+            'online_status' => 'Online Status',
+            'updated_time' => 'Updated Time',
+            'created_time' => 'Created Time',
+        ];
+    }
+}
