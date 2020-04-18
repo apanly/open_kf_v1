@@ -1,12 +1,11 @@
 编程浪子开源云客服
 =========
 ## 前提说明
+#### 本系统不在维护，因为正在开发更好的版本，所以本系统不在维护，大家可以根据自己实际情况选用，敬请期待新的版本面世
 * [github 欢迎star:https://github.com/apanly/open_kf_v1](https://github.com/apanly/open_kf_v1)
 * 演示地址
     * [PC：http://www.54php.cn/](http://www.54php.cn/)
     * [手机H5：http://m.54php.cn/](http://m.54php.cn/)
-    * ![小程序](./docs/images/mina.jpg)
-    * ![公众号](./docs/images/qrcode.jpg)
     * 交流QQ群：790102844
 
 ## 环境准备
