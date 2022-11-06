@@ -77,7 +77,7 @@ use \common\components\GlobalUrlService;
                 单商户收费版本
             </div>
             <div class="card-body">
-                <h1 class="card-title pricing-card-title text-center text-success">¥ 1299.00</h1>
+                <h1 class="card-title pricing-card-title text-center text-success">待议</h1>
                 <ul>
                     <li>获取单商户收费全部的源码</li>
                     <li>技术架构：Yii2 + GatewayWorker + Mysql  </li>
@@ -105,7 +105,7 @@ use \common\components\GlobalUrlService;
                 多商户高并发收费版本
             </div>
             <div class="card-body">
-                <h1 class="card-title pricing-card-title text-center text-success">¥ 3499.00</h1>
+                <h1 class="card-title pricing-card-title text-center text-success">待议</h1>
                 <ul>
                     <li>获取多商户高并发收费全部的源码</li>
                     <li>技术架构：Yii2 + GatewayWorker + Mysql + Redis </li>
